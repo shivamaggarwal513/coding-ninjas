@@ -11,3 +11,4 @@
   - [OOPS 2](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/08%20OOPS%202)
   - [Linked List 1](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/09%20Linked%20List%201)
   - [Linked List 2](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/10%20Linked%20List%202)
+  - [Stacks Queues](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/11%20Stacks%20Queues)

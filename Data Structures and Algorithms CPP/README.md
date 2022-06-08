@@ -14,3 +14,5 @@
   - [Assignment](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/09%20Linked%20List%201/Assignment)
 - Linked List 2
   - [Assignment](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/10%20Linked%20List%202/Assignment)
+- Stacks Queues
+  - [Assignment](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/11%20Stacks%20Queues/Assignment)
