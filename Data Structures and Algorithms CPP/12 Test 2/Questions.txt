@@ -1,0 +1,115 @@
+Chapter TEST
+Problem Statement: Next Number
+Problem Level: MEDIUM
+Problem Description:
+Given a large number represented in the form of a linked list. Write code to increment the number by 1 in-place(i.e. without using 
+extra space).
+Note: You don't need to print the elements, just update the elements and return the head of updated LL.
+Input Constraints:
+1 <= Length of Linked List <=10^6.
+
+Input format :
+Line 1 : Linked list elements (separated by space and terminated by -1)
+
+Output Format :
+Line 1: Updated linked list elements
+
+Sample Input 1 :
+3 9 2 5 -1
+
+Sample Output 1 :
+3 9 2 6
+
+Sample Input 2 :
+9 9 9 -1
+
+Sample Output 1 :
+1 0 0 0
+
+
+
+=====Answer=====
+Correct Option: 
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Chapter TEST
+Problem Statement: Dequeue
+Problem Level: MEDIUM
+Problem Description:
+You need to implement a class for Dequeue i.e. for double ended queue. In this queue, elements can be inserted and deleted from both 
+the ends.
+You don't need to double the capacity.
+You need to implement the following functions -
+1. constructor
+You need to create the appropriate constructor. Size for the queue passed is 10.
+2. insertFront -
+This function takes an element as input and insert the element at the front of queue. Insert the element only if queue is not full. 
+And if queue is full, print -1 and return.
+3. insertRear -
+This function takes an element as input and insert the element at the end of queue. Insert the element only if queue is not full. 
+And if queue is full, print -1 and return.
+4. deleteFront -
+This function removes an element from the front of queue. Print -1 if queue is empty.
+5. deleteRear -
+This function removes an element from the end of queue. Print -1 if queue is empty.
+6. getFront -
+Returns the element which is at front of the queue. Return -1 if queue is empty.
+7. getRear -
+Returns the element which is at end of the queue. Return -1 if queue is empty.
+
+
+
+
+
+=====Answer=====
+Correct Option: 
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Chapter TEST
+Problem Statement: Delete alternate nodes
+Problem Level: EASY
+Problem Description:
+Given a Singly Linked List of integers, delete all the alternate nodes in the list.
+Example:
+List: 10 -> 20 -> 30 -> 40 -> 50 -> 60 -> null
+Alternate nodes will be:  20, 40, and 60.
+
+Hence after deleting, the list will be:
+Output: 10 -> 30 -> 50 -> null
+
+Note :
+The head of the list will remain the same. Don't need to print or return anything.
+
+Input format :
+The first and the only line of input will contain the elements of the Singly Linked List separated by a single space and terminated 
+by -1.
+
+Output Format :
+The only line of output will contain the updated list elements.
+
+Input Constraints:
+1 <= N <= 10^6.
+Where N is the size of the Singly Linked List
+
+Time Limit: 1sec
+
+Sample Input 1:
+1 2 3 4 5 -1
+
+Sample Output 1:
+1 3 5
+
+Sample Input 2:
+10 20 30 40 50 60 70 -1
+
+Sample Output 2:
+10 30 50 70
+
+
+
+=====Answer=====
+Correct Option: 
+
+--------------------------------------------------------------------------------------------------------------------------------------
