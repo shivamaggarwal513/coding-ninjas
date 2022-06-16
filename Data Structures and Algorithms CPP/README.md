@@ -17,3 +17,6 @@
 - Stacks Queues
   - [Assignment](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/11%20Stacks%20Queues/Assignment)
 - Test 2
+- Trees
+  - [Assignment](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/13%20Trees/Assignment)
+  

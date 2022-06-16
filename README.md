@@ -13,4 +13,4 @@
   - [Linked List 2](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/10%20Linked%20List%202)
   - [Stacks Queues](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/11%20Stacks%20Queues)
   - [Test 2](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/12%20Test%202)
-  
+  - [Trees](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/13%20Trees)
