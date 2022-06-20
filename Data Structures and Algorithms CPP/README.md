@@ -19,4 +19,5 @@
 - Test 2
 - Trees
   - [Assignment](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/13%20Trees/Assignment)
-  
+- Binary Trees
+  - [Assignment](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/14%20Binary%20Trees/Assignment)

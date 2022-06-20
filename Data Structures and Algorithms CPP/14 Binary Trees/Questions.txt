@@ -1,0 +1,395 @@
+Coding Problem
+Problem Statement: Print Level Wise
+Problem Level: MEDIUM
+Problem Description:
+For a given a Binary Tree of type integer, print the complete information of every node, when traversed in a level-order fashion.
+To print the information of a node with data D, you need to follow the exact format :
+
+           D:L:X,R:Y
+
+Where D is the data of a node present in the binary tree. 
+X and Y are the values of the left(L) and right(R) child of the node.
+Print -1 if the child doesn't exist.
+
+Example:
+
+For the above depicted Binary Tree, the level order travel will be printed as followed:
+
+1:L:2,R:3
+2:L:4:,R:-1
+3:L:5:,R:6
+4:L:-1:,R:7
+5:L:-1:,R:-1    
+6:L:-1:,R:-1
+7:L:-1:,R:-1
+
+Note: There is no space in between while printing the information for each node.
+
+Input Format:
+The first and the only line of input will contain the node data, all separated by a single space. Since -1 is used as an indication 
+whether the left or right node data exist for root, it will not be a part of the node data.
+
+Output Format:
+Information of all the nodes in the Binary Tree will be printed on a different line where each node will follow a format of D:L:X,R:Y, 
+without any spaces in between.
+
+Constraints:
+1 <= N <= 10^5
+Where N is the total number of nodes in the binary tree.
+
+Time Limit: 1 sec
+
+Sample Input 1:
+8 3 10 1 6 -1 14 -1 -1 4 7 13 -1 -1 -1 -1 -1 -1 -1
+
+Sample Output 1:
+8:L:3,R:10
+3:L:1,R:6
+10:L:-1,R:14
+1:L:-1,R:-1
+6:L:4,R:7
+14:L:13,R:-1
+4:L:-1,R:-1
+7:L:-1,R:-1
+13:L:-1,R:-1
+
+Sample Input 2:
+1 2 3 4 5 6 7 -1 -1 -1 -1 -1 -1 -1 -1
+
+Sample Output 2:
+1:L:2,R:3
+2:L:4,R:5
+3:L:6,R:7
+4:L:-1,R:-1
+5:L:-1,R:-1
+6:L:-1,R:-1
+7:L:-1,R:-1
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Coding Problem
+Problem Statement: Is node present?
+Problem Level: EASY
+Problem Description:
+For a given Binary Tree of type integer and a number X, find whether a node exists in the tree with data X or not.
+Input Format:
+The first and the only line of input will contain the node data, all separated by a single space. Since -1 is used as an indication 
+whether the left or right node data exist for root, it will not be a part of the node data.
+
+Output Format:
+The only line of output prints 'true' or 'false'.
+
+Note:
+You are not required to print anything explicitly. It has already been taken care of.
+
+Constraints:
+1 <= N <= 10^5
+Where N is the total number of nodes in the binary tree.
+
+Time Limit: 1 sec
+
+Sample Input 1:
+8 3 10 1 6 -1 14 -1 -1 4 7 13 -1 -1 -1 -1 -1 -1 -1
+7
+
+Sample Output 1:
+true
+
+Sample Input 2:
+2 3 4 -1 -1 -1 -1
+10
+
+Sample Output 2:
+false
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Coding Problem
+Problem Statement: Height Of Tree
+Problem Level: EASY
+Problem Description:
+For a given Binary Tree of integers, find and return the height of the tree.
+Example:
+                        10
+                      /    \
+                    20      30
+                   /    \
+                 40    50
+
+Height of the given tree is 3.
+
+Height is defined as the total number of nodes along the longest path from the root to any of the leaf node.
+
+Input Format:
+The first and the only line of input will contain the node data, all separated by a single space. Since -1 is used as an indication 
+whether the left or right node data exist for root, it will not be a part of the node data.
+
+Output Format:
+The first and the only line of output prints the height of the given binary tree.
+
+Note:
+You are not required to print anything explicitly. It has already been taken care of.
+
+Constraints:
+0 <= N <= 10^5
+Where N is the total number of nodes in the binary tree.
+
+Time Limit: 1 sec
+
+Sample Input 1:
+10 20 30 40 50 -1 -1 -1 -1 -1 -1
+
+Sample Output 1:
+3
+
+Sample Input 2:
+3 -1 -1
+
+Sample Output 2:
+1
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Coding Problem
+Problem Statement: Mirror Binary tree
+Problem Level: EASY
+Problem Description:
+For a given Binary Tree of type integer, update it with its corresponding mirror image.
+Example:
+
+Input Format:
+The first and the only line of input will contain the node data, all separated by a single space. Since -1 is used as an indication 
+whether the left or right node data exist for root, it will not be a part of the node data.
+
+Output Format:
+The only line of output prints the mirrored tree in a level-wise order. 
+Each level will be printed on a new line. Elements printed at each level will be separated by a single line.
+
+Note:
+You are not required to print anything explicitly. It has already been taken care of.
+
+Constraints:
+1 <= N <= 10^5
+Where N is the total number of nodes in the binary tree.
+
+Time Limit: 1 sec
+
+Sample Input 1:
+1 2 3 4 5 6 7 -1 -1 -1 -1 -1 -1 -1 -1
+
+Sample Output 1:
+1 
+3 2 
+7 6 5 4
+
+Sample Input 2:
+5 10 6 2 3 -1 -1 -1 -1 -1 9 -1 -1
+
+Sample Output 2:
+5 
+6 10 
+3 2 
+9
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Coding Problem
+Problem Statement: Preorder Binary Tree
+Problem Level: EASY
+Problem Description:
+For a given Binary Tree of integers, print the pre-order traversal.
+Input Format:
+The first and the only line of input will contain the nodes data, all separated by a single space. Since -1 is used as an indication 
+whether the left or right node data exist for root, it will not be a part of the node data.
+
+Output Format:
+The only line of output prints the pre-order traversal of the given binary tree.
+
+Constraints:
+1 <= N <= 10^6
+Where N is the total number of nodes in the binary tree.
+
+Time Limit: 1 sec
+
+Sample Input 1:
+5 6 10 2 3 -1 -1 -1 -1 -1 9 -1 -1
+
+Sample Ouptut 1:
+5 6 2 3 9 10
+
+Sample Input 2:
+1 2 3 4 5 6 7 -1 -1 -1 -1 -1 -1 -1 -1
+
+Sample Ouptut 2:
+1 2 4 5 3 6 7
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Coding Problem
+Problem Statement: Postorder Binary Tree
+Problem Level: EASY
+Problem Description:
+For a given Binary Tree of integers, print the post-order traversal.
+Input Format:
+The first and the only line of input will contain the node data, all separated by a single space. Since -1 is used as an indication 
+whether the left or right node data exist for root, it will not be a part of the node data.
+
+Output Format:
+The only line of output prints the post-order traversal of the given binary tree.
+
+Constraints:
+1 <= N <= 10^6
+Where N is the total number of nodes in the binary tree.
+
+Time Limit: 1 sec
+
+Sample Input 1:
+1 2 3 4 5 6 7 -1 -1 -1 -1 -1 -1 -1 -1
+
+Sample Output 1:
+4 5 2 6 7 3 1
+
+Sample Input 2:
+5 6 10 2 3 -1 -1 -1 -1 -1 9 -1 -1
+
+Sample Output 1:
+2 9 3 6 10 5
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Coding Problem
+Problem Statement: Construct Tree from preorder  inorder
+Problem Level: MEDIUM
+Problem Description:
+For a given preorder and inorder traversal of a Binary Tree of type integer stored in an array/list, create the binary tree using the 
+given two arrays/lists. You just need to construct the tree and return the root.
+Note:
+Assume that the Binary Tree contains only unique elements.
+
+Input Format:
+The first line of input contains an integer N denoting the size of the list/array. It can also be said that N is the total number of 
+nodes the binary tree would have.
+
+The second line of input contains N integers, all separated by a single space. It represents the preorder-traversal of the binary tree.
+
+The third line of input contains N integers, all separated by a single space. It represents the inorder-traversal of the binary tree.
+
+Output Format:
+The given input tree will be printed in a level order fashion where each level will be printed on a new line. 
+Elements on every level will be printed in a linear fashion. A single space will separate them.
+
+Constraints:
+1 <= N <= 10^4
+Where N is the total number of nodes in the binary tree.
+
+Time Limit: 1 sec
+
+Sample Input 1:
+7
+1 2 4 5 3 6 7 
+4 2 5 1 6 3 7
+
+Sample Output 1:
+1 
+2 3 
+4 5 6 7
+
+Sample Input 2:
+6
+5 6 2 3 9 10 
+2 6 3 9 5 10
+
+Sample Output 2:
+5 
+6 10 
+2 3 
+9
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Coding Problem
+Problem Statement: Construct Tree from postorder  inorder
+Problem Level: MEDIUM
+Problem Description:
+For a given postorder and inorder traversal of a Binary Tree of type integer stored in an array/list, create the binary tree using the 
+given two arrays/lists. You just need to construct the tree and return the root.
+Note:
+Assume that the Binary Tree contains only unique elements.
+
+Input Format:
+The first line of input contains an integer N denoting the size of the list/array. It can also be said that N is the total number of 
+nodes the binary tree would have.
+
+The second line of input contains N integers, all separated by a single space. It represents the Postorder-traversal of the binary tree.
+
+The third line of input contains N integers, all separated by a single space. It represents the inorder-traversal of the binary tree.
+
+Output Format:
+The given input tree will be printed in a level order fashion where each level will be printed on a new line. 
+Elements on every level will be printed in a linear fashion. A single space will separate them.
+
+Constraints:
+1 <= N <= 10^4
+Where N is the total number of nodes in the binary tree.
+
+Time Limit: 1 sec
+
+Sample Input 1:
+7
+4 5 2 6 7 3 1 
+4 2 5 1 6 3 7
+
+Sample Output 1:
+1 
+2 3 
+4 5 6 7
+
+Sample Input 2:
+6
+2 9 3 6 10 5 
+2 6 3 9 5 10
+
+Sample Output 2:
+5 
+6 10 
+2 3 
+9
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Coding Problem
+Problem Statement: Minimum and Maximum in the Binary Tree
+Problem Level: MEDIUM
+Problem Description:
+For a given a Binary Tree of type integer, find and return the minimum and the maximum data values.
+Return the output as an object of Pair class, which is already created.
+Note:
+All the node data will be unique and hence there will always exist a minimum and maximum node data.
+
+Input Format:
+The first and the only line of input will contain the node data, all separated by a single space. Since -1 is used as an indication 
+whether the left or right node data exist for root, it will not be a part of the node data.
+
+Output Format:
+The only line of output prints two integers denoting the minimum and the maximum data values respectively. A single line will separate 
+them both.
+
+Constraints:
+2 <= N <= 10^5
+Where N is the total number of nodes in the binary tree.
+
+Time Limit: 1 sec
+
+Sample Input 1:
+8 3 10 1 6 -1 14 -1 -1 4 7 13 -1 -1 -1 -1 -1 -1 -1
+
+Sample Output 1:
+1 14
+
+Sample Input 2:
+10 20 60 -1 -1 3 50 -1 -1 -1 -1
+
+Sample Output 2:
+3 60
+
+--------------------------------------------------------------------------------------------------------------------------------------
