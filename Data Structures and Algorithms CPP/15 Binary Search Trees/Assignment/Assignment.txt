@@ -1,0 +1,419 @@
+Chapter Assignment
+Problem Statement: Create  Insert Duplicate Node
+Problem Level: EASY
+Problem Description:
+For a given a Binary Tree of type integer, duplicate every node of the tree and attach it to the left of itself.
+The root will remain the same. So you just need to insert nodes in the given Binary Tree.
+Example:
+
+After making the changes to the above-depicted tree, the updated tree will look like this.
+
+
+You can see that every node in the input tree has been duplicated and inserted to the left of itself.
+
+Input format :
+The first and the only line of input will contain the node data, all separated by a single space. Since -1 is used as an indication 
+whether the left or right node data exist for root, it will not be a part of the node data.
+
+Output Format :
+The updated tree will be printed in a level order fashion where each level will be printed on a new line. 
+Elements on every level will be printed in a linear fashion. A single space will separate them.
+
+Note:
+You are not required to print anything explicitly. It has already been taken care of. Just implement the function to achieve the 
+desired structure of the tree.
+
+Constraints :
+1 <= N <= 10^5
+Where N is the total number of nodes in the binary tree.
+
+Time Limit: 1 sec
+
+Sample Input 1:
+10 20 30 40 50 -1 60 -1 -1 -1 -1 -1 -1
+
+Sample Output 1:
+10 
+10 30 
+20 30 60 
+20 50 60 
+40 50 
+40
+
+Sample Input 2:
+8 5 10 2 6 -1 -1 -1 -1 -1 7 -1 -1
+
+Sample Output 2:
+8 
+8 10 
+5 10 
+5 6 
+2 6 7 
+2 7
+
+
+
+=====Answer=====
+Correct Option: 
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Chapter Assignment
+Problem Statement: Pair sum Binary Tree
+Problem Level: MEDIUM
+Problem Description:
+Given a binary tree and an integer S, print all the pair of nodes whose sum equals S.
+Assume binary tree contains all unique elements.
+Note : In a pair, print the smaller element first. Order of different pair doesn't matter.
+Input format :
+Line 1 : Elements in level order form (separated by space)
+(If any node does not have left or right child, take -1 in its place)
+Line 2 : Integer S
+
+Output Format :
+Each pair in different line (pair elements separated by space)
+
+Constraints :
+1 <= N <= 1000
+
+Sample Input 1:
+5 10 6 2 3 -1 -1 -1 -1 -1 9 -1 -1
+15
+
+Sample Output 1:
+5 10
+6 9
+
+
+
+=====Answer=====
+Correct Option: 
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Chapter Assignment
+Problem Statement: LCA of Binary Tree
+Problem Level: MEDIUM
+Problem Description:
+Given a binary tree and two nodes, find LCA (Lowest Common Ancestor) of the given two nodes in Binary Tree. Read about LCA if you are 
+having doubts about the definition.
+If out of 2 nodes only one node is present, return that node.
+If both are not present, return -1.
+Input format :
+Line 1 :  Elements in level order form (separated by space)
+(If any node does not have left or right child, take -1 in its place)
+Line 2 : Two integers, Node 1 and Node 2 (separated by space)
+
+Output Format :
+LCA
+
+Constraints :
+1 <= N <= 1000
+
+Sample Input 1:
+5 10 6 2 3 -1 -1 -1 -1 -1 9 -1 -1
+2 10
+
+Sample Output 1:
+10
+
+Sample Input 2:
+5 10 6 2 3 -1 -1 -1 -1 -1 9 -1 -1
+2 6
+
+Sample Output 2:
+5
+
+Sample Input 3:
+5 10 6 2 3 -1 -1 -1 -1 -1 9 -1 -1
+12 78
+
+Sample Output 3:
+-1
+
+
+
+=====Answer=====
+Correct Option: 
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Chapter Assignment
+Problem Statement: LCA of BST
+Problem Level: MEDIUM
+Problem Description:
+Given a binary search tree and two nodes, find 'LCA' (Lowest Common Ancestor) of the given two nodes in the BST.
+LCA
+LCA of two nodes A and B is the lowest or deepest node which has both A and B as its descendants.
+
+Example:
+In this example, the green coloured node is the LCA to A and B.
+
+
+Note:
+It is defined that each node is a descendant to itself, so, if there are two nodes X and Y and X has a direct connection from Y, 
+then Y is the lowest common ancestor.
+
+Example:
+    
+Note:
+1. If out of 2 nodes only one node is present, return that node. 
+2. If both are not present, return -1.
+
+Input format:
+The first line of input contains data of the nodes of the tree in level order form. The data of the nodes of the tree is separated 
+by space. If any node does not have left or right child, take -1 in its place. Since -1 is used as an indication whether the left 
+or right nodes exist, therefore, it will not be a part of the data of any node.
+The following line of input contains two integers, denoting the value of data of two nodes of given BST.
+
+Output Format:
+The first and only line of output contains the data associated with the lowest common ancestor node.
+
+Constraints:
+Time Limit: 1 second
+
+Sample Input 1:
+8 5 10 2 6 -1 -1 -1 -1 -1 7 -1 -1
+2 10
+
+Sample Output 1:
+8
+
+Sample Input 2:
+8 5 10 2 6 -1 -1 -1 -1 -1 7 -1 -1
+2 6
+
+Sample Output 2:
+5
+
+Sample Input 3:
+8 5 10 2 6 -1 -1 -1 -1 -1 7 -1 -1
+12 78
+
+Sample Output 3:
+-1
+
+
+
+=====Answer=====
+Correct Option: 
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Chapter Assignment
+Problem Statement: Largest BST
+Problem Level: HARD
+Problem Description:
+Given a Binary tree, find the largest BST subtree. That is, you need to find the BST with maximum height in the given binary tree. 
+You have to return the height of largest BST.
+Input format :
+The first line of input contains data of the nodes of the tree in level order form. The data of the nodes of the tree is separated 
+by space. If any node does not have left or right child, take -1 in its place. Since -1 is used as an indication whether the left 
+or right nodes exist, therefore, it will not be a part of the data of any node.
+
+Output format:
+The first and only line of output contains the height of the largest BST.
+
+Constraints:
+Time Limit: 1 second
+
+Sample Input 1:
+5 10 6 2 3 -1 -1 -1 -1 -1 9 -1 -1
+
+Sample Output 1:
+2
+
+
+
+=====Answer=====
+Correct Option: 
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Chapter Assignment
+Problem Statement: Replace with Sum of greater nodes
+Problem Level: MEDIUM
+Problem Description:
+Given a binary search tree, you have to replace each node's data with the sum of all nodes which are greater or equal than it. You 
+need to include the current node's data also.
+That is, if in given BST there is a node with data 5, you need to replace it with sum of its data (i.e. 5) and all nodes whose data 
+is greater than or equal to 5.
+Note: You don't need to return or print, just change the data of each node.
+Input format:
+The first line of input contains data of the nodes of the tree in level order form. The data of the nodes of the tree is separated 
+by space. If any node does not have left or right child, take -1 in its place. Since -1 is used as an indication whether the left 
+or right nodes exist, therefore, it will not be a part of the data of any node.
+
+Output format:
+In the output, data of the nodes of the tree are printed in level order form. Each level of the tree is printed on a separate line.
+
+Constraints:
+Time Limit: 1 second
+
+Sample Input 1 :
+8 5 10 2 6 -1 -1 -1 -1 -1 7 -1 -1
+
+Sample Output 1 :
+18 
+36 10 
+38 31 
+25
+
+
+
+=====Answer=====
+Correct Option: 
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Chapter Assignment
+Problem Statement: Path Sum Root to Leaf
+Problem Level: HARD
+Problem Description:
+For a given Binary Tree of type integer and a number K, print out all root-to-leaf paths where the sum of all the node data along 
+the path is equal to K.
+Example:
+
+If you see in the above-depicted picture of Binary Tree, we see that there are a total of two paths, starting from the root and 
+ending at the leaves which sum up to a value of K = 13.
+
+The paths are:
+a. 2 3 4 4
+b. 2 3 8
+
+One thing to note here is, there is another path in the right sub-tree in reference to the root, which sums up to 13 but since it 
+doesn't end at the leaf, we discard it.
+The path is: 2 9 2(not a leaf)
+
+Input Format:
+The first line of input will contain the node data, all separated by a single space. Since -1 is used as an indication whether the 
+left or right node data exist for root, it will not be a part of the node data.
+
+The second line of input contains an integer value K.
+
+Output Format:
+Lines equal to the total number of paths will be printed. All the node data in every path will be printed in a linear fashion taken 
+in the order they appear from top to down bottom in the tree. A single space will separate them all.
+
+Constriants:
+1 <= N <= 10^5
+0 <= K <= 10^8
+Where N is the total number of nodes in the binary tree.
+
+Time Limit: 1 second
+
+Sample Input 1:
+2 3 9 4 8 -1 2 4 -1 -1 -1 6 -1 -1 -1 -1 -1
+13
+
+Sample Output 1:
+2 3 4 4 
+2 3 8
+
+Sample Input 2:
+5 6 7 2 3 -1 1 -1 -1 -1 9 -1 -1 -1 -1
+13
+
+Sample Output 2:
+5 6 2
+5 7 1
+
+
+
+=====Answer=====
+Correct Option: 
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Chapter Assignment
+Problem Statement: Print nodes at distance k from node
+Problem Level: HARD
+Problem Description:
+You are given a Binary Tree of type integer, a target node, and an integer value K.
+Print the data of all nodes that have a distance K from the target node. The order in which they would be printed will not matter.
+Example:
+For a given input tree(refer to the image below):
+1. Target Node: 5
+2. K = 2
+
+
+Starting from the target node 5, the nodes at distance K are 7 4 and 1.
+
+Input Format:
+The first line of input will contain the node data, all separated by a single space. Since -1 is used as an indication whether the 
+left or right node data exist for root, it will not be a part of the node data.
+
+The second line of input contains two integers separated by a single space, representing the value of the target node and K, 
+respectively.
+
+Output Format:
+All the node data at distance K from the target node will be printed on a new line.
+
+The order in which the data is printed doesn't matter.
+
+Constraints:
+1 <= N <= 10^5
+Where N is the total number of nodes in the binary tree.
+
+Time Limit: 1 sec
+
+Sample Input 1:
+5 6 10 2 3 -1 -1 -1 -1 -1 9 -1 -1
+3 1
+
+Sample Output 1:
+9
+6
+
+Sample Input 2:
+1 2 3 4 5 6 7 -1 -1 -1 -1 -1 -1 -1 -1
+3 3
+
+Sample Output 2:
+4
+5
+
+
+
+=====Answer=====
+Correct Option: 
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Chapter Assignment
+Problem Statement: Pair sum in a BST
+Problem Level: MEDIUM
+Problem Description:
+Given a binary search tree and an integer S, find pair of nodes in the BST which sum to S. You can use extra space of the order of 
+O(log n).
+Note:
+1. Assume BST contains all unique elements.
+2. In a pair, print the smaller element first.
+
+Input Format :
+The first line of input contains data of the nodes of the tree in level order form. The data of the nodes of the tree is separated 
+by space. If any node does not have left or right child, take -1 in its place. Since -1 is used as an indication whether the left 
+or right nodes exist, therefore, it will not be a part of the data of any node.   
+The following line of input contains an integer, that denotes the value of S.
+
+Output format:
+You have to print each pair in a different line (pair elements separated by space). The order of different pairs, to be printed, 
+does not matter.
+
+Constraints:
+Time Limit: 1 second
+
+Sample Input 1:
+8 5 10 2 6 -1 -1 -1 -1 -1 7 -1 -1
+12
+
+Sample Output 1:
+2 10
+5 7
+
+
+
+=====Answer=====
+Correct Option: 
+
+--------------------------------------------------------------------------------------------------------------------------------------

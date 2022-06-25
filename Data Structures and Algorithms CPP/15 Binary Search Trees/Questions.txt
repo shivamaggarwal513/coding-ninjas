@@ -1,0 +1,195 @@
+Coding Problem
+Problem Statement: Search in BST
+Problem Level: MEDIUM
+Problem Description:
+Given a BST and an integer k. Find if the integer k is present in given BST or not. You have to return true, if node with data k is 
+present, return false otherwise.
+Note: Assume that BST contains all unique elements.
+Input Format:
+The first line of input contains data of the nodes of the tree in level order form. The data of the nodes of the tree is separated by 
+space. If any node does not have left or right child, take -1 in its place. Since -1 is used as an indication whether the left or 
+right nodes exist, therefore, it will not be a part of the data of any node.   
+The following line of input contains an integer, that denotes the value of k.
+
+Output Format:
+The first and only line of output contains a boolean value. Print true, if node with data k is present, print false otherwise.
+
+Constraints:
+Time Limit: 1 second
+
+Sample Input 1 :
+8 5 10 2 6 -1 -1 -1 -1 -1 7 -1 -1
+2
+
+Sample Output 1 :
+true
+
+Sample Input 2 :
+8 5 10 2 6 -1 -1 -1 -1 -1 7 -1 -1
+12
+
+Sample Output 2 :
+false
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Coding Problem
+Problem Statement: Elements Between K1 and K2
+Problem Level: EASY
+Problem Description:
+Given a Binary Search Tree and two integers k1 and k2, find and print the elements which are in range k1 and k2 (both inclusive).
+Print the elements in increasing order.
+Input format:
+The first line of input contains data of the nodes of the tree in level order form. The data of the nodes of the tree is separated by 
+space. If any node does not have left or right child, take -1 in its place. Since -1 is used as an indication whether the left or 
+right nodes exist, therefore, it will not be a part of the data of any node.
+The following line contains two integers, that denote the value of k1 and k2.
+
+Output Format:
+ The first and only line of output prints the elements which are in range k1 and k2 (both inclusive). Print the elements in increasing 
+ order.
+
+Constraints:
+Time Limit: 1 second
+
+Sample Input 1:
+8 5 10 2 6 -1 -1 -1 -1 -1 7 -1 -1
+6 10
+
+Sample Output 1:
+6 7 8 10
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Coding Problem
+Problem Statement: Check BST
+Problem Level: MEDIUM
+Problem Description:
+Given a binary tree with N number of nodes, check if that input tree is BST (Binary Search Tree) or not. If yes, return true, return 
+false otherwise.
+Duplicate elements should be in right subtree.
+Input format :
+Line 1 : Nodes in level order form (separated by space). If any node does not have left or right child, take -1 in its place
+
+Output format :
+true or false
+
+Constraints :
+1 <= N <= 10^5
+
+Sample Input 1 :
+3 1 5 -1 2 -1 -1 -1 -1
+
+Sample Output 1 :
+true
+
+Sample Input 2 :
+5 2 10 0 1 -1 15 -1 -1 -1 -1 -1 -1
+
+Sample Output 2 :
+false
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Coding Problem
+Problem Statement: Construct BST
+Problem Level: EASY
+Problem Description:
+Given a sorted integer array A of size n, which contains all unique elements. You need to construct a balanced BST from this input 
+array. Return the root of constructed BST.
+Note: If array size is even, take first mid as root.
+Input format:
+The first line of input contains an integer, which denotes the value of n. The following line contains n space separated integers, 
+that denote the values of array.
+
+Output Format:
+The first and only line of output contains values of BST nodes, printed in pre order traversal.
+
+Constraints:
+Time Limit: 1 second
+
+Sample Input 1:
+7
+1 2 3 4 5 6 7
+
+Sample Output 1:
+4 2 1 3 6 5 7
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Coding Problem
+Problem Statement: BST to LL
+Problem Level: EASY
+Problem Description:
+Given a BST, convert it into a sorted linked list. You have to return the head of LL.
+Input format:
+The first and only line of input contains data of the nodes of the tree in level order form. The data of the nodes of the tree is 
+separated by space. If any node does not have left or right child, take -1 in its place. Since -1 is used as an indication whether 
+the left or right nodes exist, therefore, it will not be a part of the data of any node.
+
+Output Format:
+The first and only line of output prints the elements of sorted linked list.
+
+Constraints:
+Time Limit: 1 second
+
+Sample Input 1:
+8 5 10 2 6 -1 -1 -1 -1 -1 7 -1 -1
+
+Sample Output 1:
+2 5 6 7 8 10
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Coding Problem
+Problem Statement: Find path in BST
+Problem Level: MEDIUM
+Problem Description:
+Given a BST and an integer k. Find and return the path from the node with data k and root (if a node with data k is present in given 
+BST) in a list. Return empty list otherwise.
+Note: Assume that BST contains all unique elements.
+Input Format :
+The first line of input contains data of the nodes of the tree in level order form. The data of the nodes of the tree is separated by 
+space. If any node does not have left or right child, take -1 in its place. Since -1 is used as an indication whether the left or 
+right nodes exist, therefore, it will not be a part of the data of any node.   
+The following line of input contains an integer, that denotes the value of k.
+
+Output Format :
+The first line and only line of output prints the data of the nodes in the path from node k to root. The data of the nodes is 
+separated by single space.
+
+Constraints:
+Time Limit: 1 second
+
+Sample Input 1:
+8 5 10 2 6 -1 -1 -1 -1 -1 7 -1 -1
+2
+
+Sample Output 1:
+2 5 8
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Coding Problem
+Problem Statement: BST Class
+Problem Level: MEDIUM
+Problem Description:
+Implement the BST class which includes following functions -
+1. search
+Given an element, find if that is present in BST or not. Return true or false.
+2. insert -
+Given an element, insert that element in the BST at the correct position. Assume unique elements will be given.
+3. delete -
+Given an element, remove that element from the BST. If the element which is to be deleted has both children, replace that with the 
+minimum element from right sub-tree.
+4. printTree (recursive) -
+Print the BST in ithe following format -
+For printing a node with data N, you need to follow the exact format -
+N:L:x,R:y
+
+wherer, N is data of any node present in the binary tree. x and y are the values of left and right child of node N. Print the 
+children only if it is not null.
+There is no space in between.
+You need to print all nodes in the recursive format in different lines.
+
+--------------------------------------------------------------------------------------------------------------------------------------
