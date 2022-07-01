@@ -1,0 +1,126 @@
+Coding Problem
+Problem Statement: Maximum Frequency Number
+Problem Level: EASY
+Problem Description:
+You are given an array of integers that contain numbers in random order. Write a program to find and return the number which occurs the 
+maximum times in the given input.
+If two or more elements contend for the maximum frequency, return the element which occurs in the array first.
+Input Format:
+The first line of input contains an integer, that denotes the value of the size of the array. Let us denote it with the symbol N.
+The following line contains N space separated integers, that denote the value of the elements of the array.
+
+Output Format :
+The first and only line of output contains most frequent element in the given array.
+
+Constraints:
+0 <= N <= 10^8
+Time Limit: 1 sec
+
+Sample Input 1 :
+13
+2 12 2 11 12 2 1 2 2 11 12 2 6
+
+Sample Output 1 :
+2
+
+Sample Input 2 :
+3
+1 4 5
+
+Sample Output 2 :
+1
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Coding Problem
+Problem Statement: Array Intersection
+Problem Level: MEDIUM
+Problem Description:
+You have been given two integer arrays/list(ARR1 and ARR2) of size N and M, respectively. You need to print their intersection; An 
+intersection for this problem can be defined when both the arrays/lists contain a particular value or to put it in other words, when 
+there is a common value that exists in both the arrays/lists.
+Note :
+Input arrays/lists can contain duplicate elements.
+
+The intersection elements printed would be in the order they appear in the first sorted array/list(ARR1).
+
+<br>
+Input format :
+The first line contains an Integer 't' which denotes the number of test cases or queries to be run. Then the test cases follow.
+
+The first line of each test case or query contains an integer 'N' representing the size of the first array/list.
+
+The second line contains 'N' single space separated integers representing the elements of the first the array/list.
+
+The third line contains an integer 'M' representing the size of the second array/list.
+
+The fourth line contains 'M' single space separated integers representing the elements of the second array/list.
+
+Output format :
+For each test case, print the intersection elements in a row, separated by a single space.
+
+Output for every test case will be printed in a separate line.
+
+Constraints :
+1 <= t <= 10^2
+0 <= N <= 10^6
+0 <= M <= 10^6
+
+Time Limit: 1 sec
+
+Sample Input 1 :
+2
+6
+2 6 8 5 4 3
+4
+2 3 4 7 
+2
+10 10
+1
+10
+
+Sample Output 1 :
+2 3 4
+10
+
+Sample Input 2 :
+1
+4
+2 6 1 2
+5
+1 2 3 4 2
+
+Sample Output 2 :
+1 2 2
+
+Explanation for Sample Output 2 :
+Since, both input arrays have two '2's, the intersection of the arrays also have two '2's. The first '2' of first array matches with 
+the first '2' of the second array. Similarly, the second '2' of the first array matches with the second '2' if the second array.
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Coding Problem
+Problem Statement: Pair sum to 0
+Problem Level: MEDIUM
+Problem Description:
+Given a random integer array A of size N. Find and print the count of pair of elements in the array which sum up to 0.
+Note: Array A can contain duplicate elements as well.
+Input format:
+The first line of input contains an integer, that denotes the value of the size of the array. Let us denote it with the symbol N.
+The following line contains N space separated integers, that denote the value of the elements of the array.
+
+Output format :
+The first and only line of output contains the count of pair of elements in the array which sum up to 0.
+
+Constraints :
+0 <= N <= 10^4
+Time Limit: 1 sec
+
+Sample Input 1:
+5
+2 1 -2 2 3
+
+Sample Output 1:
+2
+
+--------------------------------------------------------------------------------------------------------------------------------------

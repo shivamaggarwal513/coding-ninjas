@@ -17,3 +17,4 @@
   - [Binary Trees](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/14%20Binary%20Trees)
   - [Binary Search Trees](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/15%20Binary%20Search%20Trees)
   - [Test 3](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/16%20Test%203)
+  - [Hashmaps](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/17%20Hashmaps)
