@@ -20,3 +20,4 @@
 | 15. | Binary Search Trees | [Assignment](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/15%20Binary%20Search%20Trees/Assignment) |
 | 16. | Test 3 |  |
 | 17. | Hashmaps | [Assignment](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/17%20Hashmaps/Assignment) |
+| 18. | Priority Queues | [Assignment](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/18%20Priority%20Queues) |
