@@ -22,3 +22,4 @@
   - [Tries and Huffman Coding](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/19%20Tries%20and%20Huffman%20Coding)
   - [Dynamic Programming 1](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/20%20Dynamic%20Programming%201)
   - [Graphs 1](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/21%20Graphs%201)
+  - [Dynamic Programming 2](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/22%20Dynamic%20Programming%202)

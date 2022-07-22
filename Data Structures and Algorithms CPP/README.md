@@ -24,3 +24,4 @@
 | 19. | Tries and Huffman Coding | [Assignment](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/19%20Tries%20and%20Huffman%20Coding/Assignment) |
 | 20. | Dynamic Programming 1 | [Assignment](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/20%20Dynamic%20Programming%201/Assignment) |
 | 21. | Graphs 1 | [Assignment](https://github.com/shivamaggarwal513/Coding-Ninjas/tree/main/Data%20Structures%20and%20Algorithms%20CPP/21%20Graphs%201/Assignment) |
+| 22. | Dynamic Programming 2 |  |
